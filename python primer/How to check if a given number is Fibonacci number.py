@@ -10,7 +10,7 @@ def fibonacci(n):
 
 
 z = int(input("Enter the number to check wather it is Fibonacci number: "))
-n = 0 #defining initiation of fibonacci number
+n = 0  # defining initiation of fibonacci number
 while fibonacci(n) <= z:
     y = fibonacci(n)
     n += 1
@@ -20,7 +20,7 @@ if y == z:
 else:
     print("No, The number is not Fibonacci number")
 
-'''
+"""
 
 # short method (found out on geeksforgeeks)
 import math
@@ -36,4 +36,4 @@ if isfibonacci(z)==True:
 else:
     print("No, The number is not Fibonacci number")
     
-'''
+"""

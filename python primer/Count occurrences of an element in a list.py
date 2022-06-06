@@ -8,6 +8,6 @@ def countX(lst, x):
 
 
 # Driver Code
-lst = [8, 6, 8, 10, 8, 20, 10, 8, 8]
-x = 8
+lst = [6, 10, 8, 10, 8, 20, 10, 8, 6, 6, 6]
+x = 10
 print('{} has occurred {} times'.format(x, countX(lst, x)))

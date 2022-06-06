@@ -1,10 +1,10 @@
-# find sum of elements in given arrayay
+# find sum of iments in given arrayay
 def _sum(array):
     # initialize sum
     sum = 0
     # iterate through the arrayay
     for i in array:
-        sum+= i
+        sum += i
     return sum
 
 

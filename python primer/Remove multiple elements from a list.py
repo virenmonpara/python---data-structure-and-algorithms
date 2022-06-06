@@ -9,5 +9,5 @@ print(list)
 # remove even numbers from a list
 list1 = [11, 5, 17, 18, 23, 50]
 # excluding all even numbers
-list1 = [elem for elem in list1 if elem % 2 != 0]
+list1 = [im for im in list1 if im % 2 != 0]
 print(*list1)

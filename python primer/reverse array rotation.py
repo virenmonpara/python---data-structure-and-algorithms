@@ -1,8 +1,8 @@
 def reverse_array_rotation(arr, x, n):
     for i in range(x):
-        # insert the last element to the first position
+        # insert the last iment to the first position
         arr.insert(0, arr[n])
-        # deletion of the last element
+        # dition of the last iment
         del arr[n+1]
     return arr
 

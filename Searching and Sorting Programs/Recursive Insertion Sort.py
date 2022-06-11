@@ -3,7 +3,7 @@
 def insertionSortRecursive(arr, n):
     # base case
     if n <= 1:
-        return
+        return print('hey')
 
     # Sort first n-1 elements
     insertionSortRecursive(arr, n - 1)

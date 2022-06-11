@@ -13,8 +13,3 @@ if linear_search(list, n):
     print("your number's position is: ", pos)
 else:
     print('number is not found in list')
-
-
-# another simple way
-if n in list:
-    print(list.index(n)+1)

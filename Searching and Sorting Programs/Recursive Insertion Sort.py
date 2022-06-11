@@ -1,6 +1,4 @@
-
 # Recursive Python program for insertion sort
-
 # Recursive function to sort an array using insertion sort
 def insertionSortRecursive(arr, n):
     # base case
@@ -29,6 +27,3 @@ if __name__ == '__main__':
     n = len(A)
     insertionSortRecursive(A, n)
     print(A)
-
-# Contributed by Harsh Valecha,
-# Edited by Abraar Masud Nafiz.

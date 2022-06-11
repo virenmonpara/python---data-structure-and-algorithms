@@ -1,6 +1,6 @@
 def search(list, n):
     l = 0    # 0th place in list
-    u = len(list)-1
+    u = len(list)-1  # last place of list
 
     while l <= u:
         mid = (l+u)//2  # for integer output

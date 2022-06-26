@@ -9,3 +9,9 @@ print('total is:', total) #here assertion throw an error because of negative num
 • Help to ensure that no new bugs are introduced while adding
 features or fixing other bugs.
 • Document and test the code to a certain extent"""
+
+# another example
+# x="hello"
+# assert x== "hello" # nothing happens
+# assert x== "goodbye" #AssertionError is raised
+

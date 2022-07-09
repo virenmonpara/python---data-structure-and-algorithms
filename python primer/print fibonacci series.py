@@ -4,7 +4,7 @@ def fibonacci(i):
     lst = [1]
     i0 = 0
     i1 = 1
-    for x in range(0, i-1):
+    for x in range(i-1):
         i2 = i0+i1
         lst.append(i2)
         i0 = i1

@@ -1,4 +1,9 @@
+from memory_profiler import memory_usage
+
+print(f'Memory usage before: {memory_usage()}MB')
+
 # print fibonacci series of n numbers = [0,1,1,2,3,5,8,13,21,......]
+
 
 def fibonacci(i):
     lst = [0, 1]
@@ -9,7 +14,9 @@ def fibonacci(i):
         lst.append(i2)
         i0 = i1
         i1 = i2
-    return print(lst)
+    return lst
 
 
-fibonacci(10)
+result = fibonacci(10005)
+
+print(f'Memory usage after: {memory_usage()}MB')

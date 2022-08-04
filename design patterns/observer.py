@@ -67,3 +67,5 @@ store.subscribe(gamer3)
 # fill up the inventory
 store.replenish(10)
 store.print_inventory()
+
+

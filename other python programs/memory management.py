@@ -4,6 +4,7 @@ print(f'Memory usage before: {memory_usage()}MB')
 
 # print fibonacci series of n numbers = [0,1,1,2,3,5,8,13,21,......]
 
+
 def fibonacci(i):
     lst = [0, 1]
     i0 = 0
